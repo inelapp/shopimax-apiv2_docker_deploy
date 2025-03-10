@@ -1,0 +1,23 @@
+[
+    {
+        "_id": "67ce675c8b21bb06c33908ec",
+        "name": "super_admin",
+        "description": "usuario super administrador",
+        "status": "active",
+        "permissions": ["read", "write", "delete", "update", "super_admin"]
+    },
+    {
+        "_id": "67cd3fb06d6aabe9948777e6",
+        "name": "admin",
+        "description": "usuario administrador",
+        "status": "active",
+        "permissions": ["read", "write", "delete", "update"]
+    },
+    {
+        "_id": "67cd3fc50c2034d6c427eff9",
+        "name": "asesor",
+        "description": "Asesor de ventas",
+        "status": "active",
+        "permissions": ["read", "write", "delete", "update"]
+    }
+]
